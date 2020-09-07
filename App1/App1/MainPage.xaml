@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+    <StackLayout Margin="20,35,20,20">
+        <Label Text="Power" />
+        <Label Text="Battery" />
+        <Label Text="{Binding Battery}" />
+        <Label Text="Grid" />
+        <Label Text="{Binding Grid}" />
+        <Label Text="Home" />
+        <Label Text="{Binding Home}" />
+        <Label Text="Solar" />
+        <Label Text="{Binding Solar}" />
+        <Label Text="Errors" />
+        <Label Text="{Binding Errors}" />
+    </StackLayout>
+</ContentPage>
